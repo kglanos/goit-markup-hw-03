@@ -1,0 +1,186 @@
+:root {
+    --main-font-family: "Roboto", sans-serif;
+    --secondary-font-family: "Raleway", sans-serif;
+    --primary-text-color: #212121;
+    --title-text-color: #757575;
+    --main-bg-color: #E5E5E5;
+    --primary-bg-color: #FFFFFF;
+    --secondary-bg-color: #2F303A;
+    --logo-web-color: #2196F3;
+    --logo-web-color-2: #000000;
+    --footer-bg-color: #2F303A;
+    --buttons-color: #F5F4FA;
+    --botom-contact-color: #FFFFFF99;
+}
+
+body{
+        font-family: var(--main-font-family);
+        color: var(--primary-text-color);
+        background-color: var(--primary-bg-color);
+}
+a {
+        text-decoration: none;
+}
+
+.web {
+        font-family: var(--secondary-font-family);
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing:  0.03em;
+        color: var(--logo-web-color);
+}
+.web-studio-link{
+        text-decoration: none;
+        font-family: var(--secondary-font-family);
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 1.38;
+        letter-spacing: 0.03em;
+        color:var(--logo-web-color-2);
+}
+
+.contact-links {
+        list-style: none;
+}
+.nav-link {
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: var(--primary-text-color);
+}
+.nav-link:hover {
+        color: var(--logo-web-color);
+}
+.big-header{
+        background-color: var(--footer-bg-color);
+}
+.big-title {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.4;
+        letter-spacing: 0.06em;
+        color: var(--primary-bg-color);
+}
+.button-menu {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.87;
+        letter-spacing: 0.06em;
+        color:var(--primary-bg-color);
+        background-color: var(--logo-web-color);
+}
+.our-section-list {
+        list-style: none;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        color: var(--primary-text-color);
+}
+.our-section-description {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+        color: var(--title-text-color);
+}
+.third-header{
+        background-color: var(--main-bg-color);
+}
+.our-section-title-2 {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        color: var(--primary-text-color);
+}
+.team-name {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+        color: var(--primary-text-color);
+        background-color: var(--primary-bg-color);
+}
+
+.main-images,
+.main-images-images,
+.team-images,
+.set-buttons,
+.button,
+.card-set-photo {
+        list-style: none;
+}
+.team-position {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+        color: var(--title-text-color);
+        background-color: var(--primary-bg-color);
+}
+.bottom {
+        background-color: var(--footer-bg-color);
+        list-style: none;
+        text-decoration: none;
+}
+.studio-name-footer{
+        font-family: "Raleway", sans-serif;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 1.4;
+        letter-spacing: 0.03em;
+        color: var(--primary-bg-color);
+}
+.bottom-contact-adress {
+        list-style: none;
+        font-style: var(--main-font-family);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+        color: var(--primary-bg-color);
+}
+.bottom-contact-link {
+        list-style: none;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+        color: var(--botom-contact-color);
+}
+.bottom-contact-portfolio{
+        text-decoration: underline;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+        color: var(--botom-contact-color);
+}
+.buttons {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--primary-text-color);
+        background-color: var(--buttons-color);
+        border-radius: 4px;
+        border: none;
+}
+.buttons:hover,
+.butons:focus {
+        color: var(--primary-bg-color);
+        background-color: var(--logo-web-color);
+}
+.buttons,
+.button-menu {
+        cursor: pointer;
+}

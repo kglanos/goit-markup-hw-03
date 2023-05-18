@@ -2,6 +2,10 @@
 <html lang="pl">
   <head>
     <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,38 +19,40 @@
   </head>
   <body>
     <!--Nagłówek witryny-->
-    <header>
-      <a class="web-studio-link"><span class="web">Web</span>Studio </a>
-      <!--Menu Nav-->
-      <nav>
-        <ul>
+    <header class="container">
+      <div class="site-nav">
+        <a class="web-studio-link"><span class="web">Web</span>Studio </a>
+        <!--Menu Nav-->
+        <nav>
+          <ul class="site-link">
+            <li class="contact-links">
+              <a class="nav-link" href="./index.html">Agencja</a>
+            </li>
+            <li class="contact-links">
+              <a class="nav-link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="contact-links">
+              <a class="nav-link" href="#">Kontakt</a>
+            </li>
+          </ul>
+        </nav>
+        <!--Kontakt-->
+        <ul class="site-link">
           <li class="contact-links">
-            <a class="nav-link" href="./index.html">Agencja</a>
+            <a class="nav-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
           <li class="contact-links">
-            <a class="nav-link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li class="contact-links">
-            <a class="nav-link" href="#">Kontakt</a>
+            <a class="nav-link" href="tel:+48111111111">+48 111 111 111</a>
           </li>
         </ul>
-      </nav>
-      <!--Kontakt-->
-      <ul>
-        <li class="contact-links">
-          <a class="nav-link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li class="contact-links">
-          <a class="nav-link" href="tel:+48111111111">+48 111 111 111</a>
-        </li>
-      </ul>
+      </div>
     </header>
     <!--Przyciski-->
     <main>
       <section>
-        <div>
+        <div class="container">
           <ul class="set-buttons">
             <li><button type="button" class="buttons">Wszystkie</button></li>
             <li>
@@ -59,7 +65,7 @@
             </li>
           </ul>
         </div>
-        <div>
+        <div class="container">
           <ul class="card-set-photo">
             <li class="card-set-item">
               <img
@@ -166,22 +172,24 @@
     </main>
     <!-- Stopka strony -->
     <footer class="bottom">
-      <a class="studio-name-footer"><span class="web">Web</span>Studio</a>
-      <address class="bottom-contact-adress">
-        m.Warszawa, Aleje Jerozolimskie 21
-      </address>
-      <ul class="bottom-contact-adress">
-        <li>
-          <a class="bottom-contact-portfolio" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a class="bottom-contact-link" href="tel:+48111111111"
-            >+48 111 111 111</a
-          >
-        </li>
-      </ul>
+      <div class="container">
+        <a class="studio-name-footer"><span class="web">Web</span>Studio</a>
+        <address class="bottom-contact-adress">
+          m.Warszawa, Aleje Jerozolimskie 21
+        </address>
+        <ul class="bottom-contact-adress">
+          <li>
+            <a class="bottom-contact-portfolio" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="bottom-contact-link" href="tel:+48111111111"
+              >+48 111 111 111</a
+            >
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>

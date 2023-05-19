@@ -63,6 +63,7 @@ img {
         line-height: 1.19;
         letter-spacing:  0.03em;
         color: var(--logo-web-color);
+        
 }
 .web-studio-link{
         text-decoration: none;
@@ -77,22 +78,28 @@ img {
 
 .site-nav {
         display: flex;
+        gap: 93px;
+}
+
+.main-button {
+        display: flex;
         list-style-type: none;
+        align-items: baseline;
         justify-content: space-evenly;
         gap: 93px;
         border-bottom: 1px solid #ECECEC;
+        padding-bottom: 32px;
 }
 .site-link{
         display: flex;
         list-style-type: none;
         gap: 46px;
-        padding-top: 32px;
-        padding-bottom: 32px;
 }
 .contact-links {
         list-style: none;
 }
-.nav-link {
+.nav-link,
+.site-link {
         text-decoration: none;
         justify-content: flex-end;
         font-weight: 500;

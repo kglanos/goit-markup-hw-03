@@ -57,7 +57,6 @@ img {
 .page-header {
         display: flex;
         align-items: center;
-        border-bottom: 1px solid #ECECEC;
         padding-bottom: 32px;
         padding-top: 24px;
 }
@@ -138,8 +137,13 @@ img {
 }
 
 .big-header{
+        border-top: 1px solid #ECECEC;
         background-color: var(--footer-bg-color);
         justify-content: center;
+}
+
+.top-button {
+        border-top: 1px solid #ECECEC;
 }
 .big-title {
         display: flex;

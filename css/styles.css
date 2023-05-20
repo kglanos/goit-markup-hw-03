@@ -236,7 +236,6 @@ img {
         background-color: var(--primary-bg-color);
 }
 
-
 .set-buttons,
 .button {
         list-style: none;
@@ -253,7 +252,9 @@ img {
         padding: 0;
         margin: 0 auto;
 }
-
+.border-photo {
+        border: 1px solid #EEEEEE;
+}
 .client-name{
         font-weight: 700;
         letter-spacing: 0.06em;
@@ -315,7 +316,6 @@ img {
         line-height: 1.7;
         letter-spacing: 0.03em;
         color: var(--primary-bg-color);
-        padding-top: 20px;
 }
 
 .bottom-contact-link {
@@ -326,6 +326,8 @@ img {
         line-height: 1.7;
         letter-spacing: 0.03em;
         color: var(--botom-contact-color);
+        padding-top: 9px;
+        padding-bottom: 9px;
 }
 .bottom-contact-portfolio{
         text-decoration: underline;
@@ -334,6 +336,8 @@ img {
         line-height: 1.7;
         letter-spacing: 0.03em;
         color: var(--botom-contact-color);
+        padding-top: 9px;
+        padding-bottom: 9px;
 }
 
 .buttons {

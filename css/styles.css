@@ -299,8 +299,8 @@ img {
         background-color: var(--footer-bg-color);
         list-style: none;
         text-decoration: none;
-        padding: 60px 0px 60px 180px;
-        margin-left: auto;
+        padding-top: 60px;
+        padding-bottom: 60px;
 }
 .studio-name-footer{
         font-family: "Raleway", sans-serif;
@@ -310,7 +310,6 @@ img {
         line-height: 1.4;
         letter-spacing: 0.03em;
         color: var(--primary-bg-color);
-        padding-bottom: 20px;
 }
 .bottom-contact-adress {
         list-style: none;
